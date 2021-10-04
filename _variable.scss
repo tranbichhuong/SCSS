@@ -7,9 +7,4 @@ $input-text: #929292;
 $bg-light: #f7f7f7;
 $bg-dark: #1a1c28;
 $res_768 :" only screen and (min-width: 768px) and (max-width: 1179px)";
-//Mixin
-@mixin responsive_768px(){
-  @media #{$res_768} {
-    @content;
-}
-}
+
