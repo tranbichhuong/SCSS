@@ -1,0 +1,5 @@
+@mixin responsive_768px(){
+    @media #{$res_768} {
+      @content;
+  }
+  }
